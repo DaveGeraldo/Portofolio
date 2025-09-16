@@ -1,46 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dave Geraldo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dave Geraldo Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <h2><u>Dave Geraldo Jonathan Koro</u></h2>
-    <h3>About Me</h3>
+
+  <!-- NAVIGASI -->
+  <header>
+    <div class="logo">DG</div>
+    <nav>
+      <ul>
+        <li><a href="#me">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#portfolio">Works</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ME -->
+  <section class="me" id="me">
+    <div class="me-text">
+      <h1>Dave Geraldo</h1>
+      <h2>Product Designer & Music Enthusiast</h2>
+      <p>Saya mendesain produk digital yang sederhana, estetik, dan bermanfaat. 
+         Selain itu, saya juga aktif di dunia musik dan organisasi.</p>
+      <a href="#portfolio" class="btn">Lihat Project</a>
+    </div>
+    <img src="ganteng.jpg" alt="Dave Geraldo" />
+  </section>
+
+    <!-- About me -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
     <p>
-        Saya adalah pribadi yang menyukai dunia desain dan kreativitas, dengan passion yang besar pada musik sebagai salah satu sumber inspirasi utama saya. Saya tekun, selalu bersemangat untuk belajar hal-hal baru, serta menikmati tantangan sebagai peluang untuk terus berkembang dan menghasilkan karya yang lebih baik.
-        <br><br>
-        Sejak kecil saya sudah tertarik pada seni, kreativitas, dan musik, yang kemudian berkembang menjadi bagian penting dalam cara saya mengekspresikan diri. Selain itu, saya juga gemar melakukan petualangan, menjelajahi hal-hal baru, dan menghadapi rintangan dengan semangat. Kebiasaan ini membuat saya semakin mencintai dunia kreatif, karena di sanalah saya bisa menggabungkan rasa ingin tahu, keberanian menghadapi tantangan, dan ketekunan untuk terus berkembang.
-        <br><br>
-        Perpaduan antara minat di bidang teknologi, seni musik, dan kecintaan terhadap alam membentuk karakter saya sebagai pribadi yang adaptif, bersemangat, dan terbuka pada berbagai kemungkinan baru.
+      Saya adalah pribadi yang menyukai dunia desain dan kreativitas, dengan passion besar pada musik. 
+      Sejak kecil, seni dan musik sudah menjadi bagian penting dalam cara saya mengekspresikan diri. 
+      Perpaduan antara minat teknologi, seni musik, dan kecintaan terhadap alam membentuk karakter saya 
+      sebagai pribadi adaptif, bersemangat, dan terbuka terhadap kemungkinan baru.
     </p>
-    <br>
-    <img src="ganteng.jpg" alt="Dave Geraldo Jonathan Koro" style="width:500px; height:auto;">
-    <br><br>
 
-    <!-- Service Section -->
-    <h3>Service (Apa yang Bisa Saya Kerjakan)</h3>
-    <ul>
-        <li>Editing Video, Foto</li>
-        <li>Sound Design</li>
-        <li>Fotografi</li>
-    </ul>
+    <div class="stats">
+      <div class="stat"><span>3+</span> Years Experience</div>
+      <div class="stat"><span>10+</span> Projects Completed</div>
+      <div class="stat"><span>24/7</span> Support Available</div>
+    </div>
+  </section>
 
-    <!-- Dokumentasi -->
-    <h3>Dokumentasi</h3>
-    <img src="IMG-20250909-WA0029.jpg" alt="Dokumentasi Foto 1" style="width:300px; height:auto; margin:10px;">
-    <img src="IMG-20250909-WA0030.jpg" alt="Dokumentasi Foto 2" style="width:300px; height:auto; margin:10px;">
-    <img src="IMG-20250909-WA0032.jpg" alt="Dokumentasi Foto 4" style="width:300px; height:auto; margin:10px;">
-    <img src="IMG-20250909-WA0031.jpg" alt="Dokumentasi Foto 3" style="width:300px; height:auto; margin:10px;">
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <h2>My Service</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Editing Video & Foto</h3>
+        <p>Membuat dan mengedit video serta foto dengan sentuhan estetika yang profesional.</p>
+      </div>
+      <div class="service-card">
+        <h3>Sound Design</h3>
+        <p>Mengolah audio dan musik agar lebih berkualitas, mendukung karya visual maupun musik.</p>
+      </div>
+      <div class="service-card">
+        <h3>Fotografi</h3>
+        <p>Menangkap momen melalui fotografi yang kreatif dan penuh makna.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Experience -->
-    <h3>My Experience</h3>
-    <ul>
-        <li><b>Music Director (2023–2024):</b> Menjadi Music Director ART BAND UPH</li>
-        <li><b>Ketua Umum MAPALA (2024–sekarang):</b> Menjadi Ketua Umum UKM Mahasiswa Pencinta Alam UPH</li>
-    </ul>
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <h2>Selected Works</h2>
+    <div class="portfolio-grid">
+      <img src="IMG-20250909-WA0029.jpg" alt="Dokumentasi Foto 1">
+      <img src="IMG-20250909-WA0030.jpg" alt="Dokumentasi Foto 2">
+      <img src="IMG-20250909-WA0032.jpg" alt="Dokumentasi Foto 3">
+      <img src="IMG-20250909-WA0031.jpg" alt="Dokumentasi Foto 4">
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <h2>My Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Music Director — ART BAND UPH</h3>
+        <span>2023-2024</span>
+        <p>Menjadi Music Director untuk band kampus, mengatur aransemen musik dan pertunjukan live.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Ketua Umum — MAPALA UPH</h3>
+        <span>2024-sekarang</span>
+        <p>Memimpin organisasi Mahasiswa Pencinta Alam, mengelola kegiatan alam bebas dan sosial.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <h2>What My Clients Say</h2>
+    <div class="testimonial">
+      <p>"Dave adalah pribadi kreatif yang mampu mengubah ide sederhana menjadi karya yang memukau. 
+         Kolaborasi dengan dia selalu menyenangkan."</p>
+      <img src="ganteng.jpg" alt="Client">
+      <h4>— Nama Client</h4>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Dave Geraldo Jonathan Koro. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
